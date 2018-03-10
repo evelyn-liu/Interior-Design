@@ -1,0 +1,65 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+#ab{
+	height: 582px;
+}
+#p{
+	height: 550px;
+}
+#t{
+	width: 540px;
+	height: 370px;
+	position: absolute;
+	top: 270px;
+	left: 405px;
+}
+#t span{
+	width: 100%;
+	height: 44px;
+	display: inline-block;
+	line-height: 44px;
+	text-align: center;
+	color: white;
+}
+#t .t1{
+	font-size: 24px;	
+}
+#t .t2{
+	font-size: 14px;
+}
+#t .t5{
+	font-size: 14px;
+	border: 2px solid white;
+	width: 170px;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+#t .t5:hover{
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	border: 2px solid #000;
+}
+#p1{
+	height: 36px;
+	width: 36px;
+	margin-right: 10px;
+}
+#p2{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 36px;
+	width: 36px;
+}
+#p1:hover{
+	cursor: pointer;
+}
+#p2:hover{
+	cursor: pointer;
+}
+#t .t8{
+	position: absolute;
+	bottom: -20px;
+}

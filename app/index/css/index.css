@@ -1,0 +1,80 @@
+	body,html{
+				margin: 0;
+				padding: 0;
+			}
+	#box{
+		margin: 0px auto;
+		height: 580px;
+		position: relative;
+	}
+	#breathLight{
+		width: 20px;
+		height: 20px;
+		position: fixed;
+		left: 660px;
+		bottom: 120px;
+	}
+	#breathLight:hover{
+		cursor: pointer;
+	}
+	#circle-1,#circle-2,#circle-3{
+		background-color: rgb(255,255,255);
+		width: 20px;
+		height: 20px;
+		display: block;
+		transform: scale(0);
+		position: absolute;
+		border-radius: 100%;
+		transform-origin: 50% 50%;
+	}
+	#circle-1{
+		animation: clickCircle  3s ease-in-out infinite;
+		opacity: 0.6;
+	}
+	#circle-2{
+		animation: clickCircle 3s ease-in-out infinite .5s;
+		opacity: 0.8;
+	}
+	#circle-3{
+		animation: clickCircle 3s ease-in-out infinite 1s;
+		opacity: 1;
+	}
+	@keyframes clickCircle{
+		0%{
+			transform: scale(0);
+		}
+		100%{
+			transform: scale(1.5);
+			opacity: 0;
+		}
+	}
+	#list{
+		height: 40px;
+	}
+	#list ul{
+		height: 24px;
+		margin-left: 455px;
+		margin-top: 30px;
+		padding:0;
+	}
+	#first{
+		color: #e3a45f;
+		text-decoration: underline;
+	}
+	ul li{
+		float:left;
+		margin-right: 20px;
+		list-style: none;
+		font-family: 微软雅黑;
+		color:grey;
+		font-size:18px;
+	}
+	ul li a{
+		color: gray;
+		text-decoration: none;
+	}
+	#list ul li a:hover{
+		color: #e3a45f;
+		text-decoration: underline;
+		cursor: pointer;
+	}

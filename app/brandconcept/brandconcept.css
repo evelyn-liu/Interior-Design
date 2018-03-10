@@ -1,0 +1,171 @@
+html,body,ul{
+	margin: 0;
+	left: 0;
+}
+span{
+	font-family: 微软雅黑;
+	text-decoration: none;
+	color: #a6a6a6;
+}
+.brandConcept{
+	margin-top: 38px;
+}
+.brandStory{
+	height: 96px;
+	position:relative;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.brandStory span{
+	font-size: 24px;
+	position: absolute;
+	left: 550px;
+}
+.line{
+	width: 100%;
+	height: 2px;
+	background: #dcdcdc;
+}
+.design{
+	width: 1200px;
+	height: 260px;
+	margin:0 auto;
+}
+.designspan{
+	padding-top: 23px;
+}
+.design span{
+	text-align: center;
+	display: block;
+	padding-top: 17px;
+	font-size: 16px;
+}
+/*轮播*/
+#brandSolider{
+	height: 345px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.server{
+	width: 1200px;
+	height: 410px;
+	margin:0 auto;
+	position: relative;
+}
+.server span{
+	
+	color: #6a6a6a;
+	display: block;
+}
+.serverArea span{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 65px;
+}
+.serverFor{
+	width: 744px;
+	height: 246px;
+	margin:0 auto;
+	padding-top: 74px;
+}
+.serverus{
+	font-size: 24px;
+}
+.serverl{
+	width: 470px;
+	float: left;
+	padding-top: 23px;	
+}
+.serverl span{
+	color: #a6a6a6;
+	padding-top: 11px;
+	font-size: 16px;
+}
+.serverr{
+	width: 274px;
+	float: left;
+	padding-top: 23px;
+}
+.serverr span{
+	color: #a6a6a6;
+	padding-top: 11px;
+	font-size: 16px;
+}
+.partner{
+	height: 170px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.partnerMain{
+	width: 814px;
+	height: 65px;
+	margin: 0 auto;
+	padding-top: 110px;
+	
+}
+.partnerMain span{
+	font-size: 24px;
+	color: #a6a6a6;
+	display: block;
+	text-align: center;
+}
+.partnerSpan{
+	width: 200px;
+	margin: 0 auto;
+	float: left;
+}
+.partnerLinel{
+	width: 307px;
+	height: 2px;
+	float: left;
+	margin-top: 42px;
+	background: -webkit-linear-gradient(left, #e2e2e2 , #a6a6a6); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #e2e2e2 , #a6a6a6); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #e2e2e2 , #a6a6a6); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #e2e2e2 , #a6a6a6); /* 标准的语法 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#a6a6a6',GradientType=1);/*ie*/
+
+}
+.partnerLinel:root .gradient{filter:none;}
+
+.partnerLiner{
+	width: 307px;
+	height: 2px;
+	float: left;
+	margin-top: 42px;	
+	background: -webkit-linear-gradient(left , #a6a6a6, #e2e2e2); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #a6a6a6, #e2e2e2 ); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right , #a6a6a6, #e2e2e2); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right , #a6a6a6, #e2e2e2); /* 标准的语法 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a6a6', endColorstr='#e2e2e2',GradientType=1);/*ie*/
+}
+.partnerLiner:root .gradient{filter:none;}
+
+.partnerLoad{
+	width: 1200px;
+	margin: 0 auto;
+}
+.partnerLM{
+	width: 	1200px;
+	height: 550px;	
+	clear: both;
+	margin-left: 10px;	
+	margin-top: 55px;
+	margin-bottom: 102px;		
+}
+.partnerLM div{
+	width: 278px;
+	height: 165px;
+	border: 2px solid #a6a6a6;
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 20px;
+}
+.partnerLM img{
+	width: 144px;
+	height: 56px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 54px;
+}

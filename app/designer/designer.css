@@ -1,0 +1,185 @@
+
+html,body{
+	margin: 0;
+	left: 0;
+}
+p{
+	font-family: 微软雅黑;
+	text-decoration: none;
+}
+
+.designerWeb{
+	margin-top: 38px;
+}
+.main{
+	width: 1200px;	
+	margin: 0 auto;
+}
+
+.ourDesign{
+	width: 968px;
+	height: 122px;
+	margin: 0 auto;
+}
+.ourDesign p{
+	font-size: 24px;
+	color: #6a6a6a;
+	display: block;
+	text-align: center;
+}
+.line{
+	width: 100%;
+	height: 2px;
+	background: #dcdcdc;
+}
+.designer{
+	background: #dcdcdc;
+	width: 1200px;
+	height: 1832px;
+	position: relative;
+}
+.designerMain{
+	width: 968px;
+	position: absolute;
+	left: 116px;
+	margin-top: 36px;	
+}
+
+.d{
+	width: 968px;
+	height: 357px;
+}
+.d1{
+	width: 968px;
+	height: 357px;
+}
+.d div{
+	float: left;
+}
+#dd1,#dd3{
+	float: right;	
+	width: 263px;
+	height: 355px;
+	overflow: hidden;
+}
+
+.d1 div{
+	float: right;
+}
+#dd2,#dd4{
+	float: left;
+	width: 263px;
+	height: 355px;
+	overflow: hidden;
+} 
+.d2{
+	margin-bottom: 114px;
+}
+.text{
+	width: 548px;
+	height: 245px;
+	margin-top: 55px;
+}
+.text p{
+	color: #6a6a6a;
+	display: block;	
+}
+.texta{
+	font-size: 24px;
+}
+.textb{
+	font-size: 16px;
+	margin-top: 40px;
+}
+.designTeam{
+	height: 612px;
+	margin-top: 22px;
+	position: relative;
+	margin-bottom: 84px;
+
+}
+.designTeam p{
+	display: block;
+	color: #6a6a6a;
+	font-size: 24px;
+	text-align: center;
+}
+.designTeam img{
+	display: block;
+	position: absolute;
+	
+}
+.ddd{
+	position: relative;
+}
+.imghover{
+	width: 263px;
+	height: 351px;
+	position: absolute;
+	background: black;
+	opacity: 0.4;
+	bottom: 0px;
+}
+.imghover p{
+	color: white;
+    font-size: 24px;
+    position: absolute;
+}
+#imghovero{
+	
+	height: 355px;
+	display: none;
+}
+#imghovers{
+	display: none;
+}
+#imghoverf{
+	height: 355px;
+	width: 260px;
+	display: none;
+}
+#imghovert{
+	top: 1px;
+	display: none;
+}
+#imghovero p{
+	top: 220px;
+	left: 80px;
+}
+#imghovers p{
+	top: 220px;
+	left: 110px;
+}
+#imghovert p{
+	top: 100px;
+	left: 20px;
+}
+#imghoverf p{
+	top: 220px;
+	left: 20px;
+}
+
+#dd1:hover #imghovero{
+	display: block;
+	animation: imgh 2s linear;
+}
+#dd2:hover #imghovers{
+	display: block;
+	animation: imgh 2s linear;
+}
+#dd3:hover #imghovert{
+	display: block;
+	animation: imgh 2s linear;
+}
+#dd4:hover #imghoverf{
+	display: block;
+	animation: imgh 2s linear;
+}
+@keyframes imgh{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.4;
+	}
+}

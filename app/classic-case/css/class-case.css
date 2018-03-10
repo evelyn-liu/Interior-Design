@@ -1,0 +1,141 @@
+.clearFix:after{
+	clear: both;
+	content: '';
+	display: block;
+}
+.h1{
+	width: 1349px;
+	height: 103px;
+	text-align: center;
+	line-height: 103px;
+	border-bottom: 2px solid rgb(220,220,220);
+}
+.b1{ 
+	position: absolute;	
+	left: 120px;
+	top: 300px;
+	text-align: right;
+}
+.b1 span{
+	display: block;
+}
+.s1{
+	font-size: 24px;
+	color: rgb(106,106,106);
+}
+.b1 .t{
+	margin-bottom: 20px; 
+}
+.t1{
+	font-size: 18px;
+	color: rgb(186,186,186);
+}
+.p{
+	float: right;
+	margin-top: 90px;
+	position: relative;
+}
+.p1{
+	width: 700px;
+	float: left;
+}
+.d2{
+	margin-top: 90px;
+	position: relative;
+}
+.b2{
+	float: right;
+	margin-right: 240px;
+	width: 150px;
+}
+.w1{
+	display: inline-block;
+	width: 31px;
+	height: 196px;
+	line-height: 25px;
+}
+.w2{
+	display: inline-block;
+	width: 24px;
+}
+.zs{
+	position: absolute;
+	right: 237px;
+	top: 125px; 
+}
+.sy{
+	position: absolute;
+	top: 0;
+	left: -28px;
+}
+.p2{
+	margin-top: 140px;
+	position: relative;
+}
+.d4{
+	position: relative;
+	margin-top:143px;
+	margin-bottom: 100px;
+}
+.p3{
+	position: absolute;
+	left: 270px;
+	top: 140px;
+}
+.p3 span{
+	display: block;
+}
+.z1{
+	margin-bottom: 47px;
+}
+.y1{
+	float: right;
+}
+.line{
+	padding: 0;
+	position: absolute;
+	background-color:#D5D5D5;
+	overflow:hidden;	
+}
+.line1{
+	width: 500px;
+	height: 2px;
+	bottom: -40px;
+	left: -160px;
+}
+.line2{
+	width: 2px;
+	height: 250px;
+	left: -55px;
+	bottom:-70px;
+}
+.line3{
+	width: 2px;
+	height: 250px;
+	left: 207px;
+	bottom: -270px;
+}
+.line4{
+	width: 257px;
+	height: 2px;
+	right: 106px;
+	top: -80px;
+}
+.line5{
+	width: 2px;
+	height: 450px;
+	right: 190px;
+	top: -101px;
+}
+.line6{
+	width:400px;
+	height:2px;
+	margin-top: 10px;
+	left: -180px;
+}
+.line7{
+	width: 2px;
+	height: 62px;
+	right: -15px;
+	top: 10px;	
+}
